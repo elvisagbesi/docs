@@ -60,7 +60,7 @@ In this guide, you'll create a {% data variables.product.prodname_actions %} wor
 
     on:
       release:
-        types: [created]
+        types: [published]
 
     jobs:
       build:
